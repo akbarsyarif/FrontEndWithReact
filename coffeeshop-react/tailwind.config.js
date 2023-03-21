@@ -20,7 +20,7 @@ module.exports = {
       },
       backgroundImage: {
         profile: "url(../assets/images/profile-picture.webp)",
-        // bghistory: "url(./images/history-bg.webp)",
+        bghistory: "url(../assets/images/history-bg.webp)",
         veggieTomatoMix: "url(../assets/images/vegie-tomato-mix.webp)",
         homeBg: "url(../assets/images/coffee-bg.webp)",
         searchIcon: "url(../assets/images/search-black.svg)",

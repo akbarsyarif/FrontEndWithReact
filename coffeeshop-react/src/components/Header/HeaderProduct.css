@@ -1,3 +1,6 @@
+/* hidden tabXl:flex justify-center items-center gap-10 */
+/* "profile-wrapper hidden tabXl:flex items-center gap-8" */
+
 nav,
 #account {
   display: none;
@@ -15,11 +18,10 @@ nav.active,
 }
 
 nav.active {
-  top: 128px;
+  top: 150px;
   gap: 25px;
   z-index: 2;
   border-bottom: 1px dashed black;
-  padding-top: 20px;
 }
 
 nav.active:nth-child(3) {
@@ -27,7 +29,7 @@ nav.active:nth-child(3) {
 }
 
 #account.active {
-  top: 333px;
+  top: 313px;
   padding: 30px 0 25px;
   gap: 25px;
   justify-content: center;
@@ -36,9 +38,6 @@ nav.active:nth-child(3) {
   border-radius: 10px;
   box-shadow: 0px 6px 20px rgba(196, 196, 196, 0.67);
 }
-
-/* {className="account mobileXl:hidden tabXl:flex items-center gap-10"} */
-/* {// className="nav-bar mobileXl:hidden tabXl:flex justify-center items-center gap-10 "} */
 
 @media screen and (min-width: 900px) {
   #account {
@@ -73,7 +72,6 @@ nav.active:nth-child(3) {
     align-items: center;
     gap: 40px;
     border: none;
-    padding: 0;
   }
 
   nav.active:nth-child(3) {

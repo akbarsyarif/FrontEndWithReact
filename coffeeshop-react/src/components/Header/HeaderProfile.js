@@ -8,7 +8,7 @@ import "./HeaderHome.css";
 
 import { Link } from "react-router-dom";
 
-export class HeaderProduct extends Component {
+export class HeaderProfile extends Component {
   state = { clicked: false };
 
   toggleNav = () => {
@@ -30,7 +30,7 @@ export class HeaderProduct extends Component {
             <p className="text-base font-normal text-fontb">Home</p>
           </Link>
           <Link to="/product-cust">
-            <p className="active-page font-bold text-main">Product</p>
+            <p className="text-base font-normal text-fontb">Product</p>
           </Link>
           <p className="text-base font-normal text-fontb">Your Cart</p>
           <Link to="/history">
@@ -54,4 +54,4 @@ export class HeaderProduct extends Component {
   }
 }
 
-export default HeaderProduct;
+export default HeaderProfile;
